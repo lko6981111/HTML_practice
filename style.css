@@ -26,6 +26,7 @@ body{
     /* 뷰포트의 높이를 100%를 최소높이로 지정 */
     background-color: white;
 }
+/* 이것을 통해 가운데 정렬 */
 /* display:flex를 먹인 태그는 부모태그가 되고, div태그는 자식 태그가 된다. */
 
 #wrapper{
@@ -87,7 +88,7 @@ h2{
     visibility:visible;
 }
 
-.inputGroup.helperText{
+.inputGroup .helperText{
     display:block;
     padding-top:8px;
 }
@@ -96,7 +97,7 @@ h2{
     visibility:hidden;
 }
 
-.inputGroup.invalid.helperText{
+.inputGroup .invalid.helperText{
     color:var(--errorColor);
 }
 
