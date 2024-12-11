@@ -6,35 +6,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>회원등록</title>
+    <link rel = "stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <form action="">
+    <div id="wrapper" class="wrapper">
+        <form id="registrationForm" class="registrationForm">
             <h2>회원등록</h2>
-            <div>
+            <div class = "inputGroup">
                 <label for="nickname">사용자이름</label>
-                <input type = "text">
-                <span>알림</span>
+                <input type = "text" id="nickname" class="nicknameInput">
+                <span class="helperText">알림</span>
             </div>
-            <div>
+            <div class = "inputGroup">
                 <label for="userEmail">이메일 주소</label>
-                <input type = "email">
-                <span>알림</span>
+                <input type = "email" id="email" class="emailInput">
+                <span class="helperText">알림</span>
+                <!-- 글자표현 -->
             </div>
-            <div>
+            <div class = "inputGroup">
                 <label for="userPassword">비밀번호</label>
-                <input type = "password">
-                <span>알림</span>
+                <input type = "password"  id="userPassword" class="passwordInput">
+                <span class="helperText">알림</span>
             </div>
-            <div>
+            <div class = "inputGroup">
                 <label for="confirmPassword">비밀번호 확인</label>
-                <input type = "text">
-                <span>알림</span>
+                <input type = "text" id="confirmPassword" class="confirmPasswordInput">
+                <span class="helperText">알림</span>
             </div>
-            <div>
+            <div class = "inputGroup">
                 <label for="phone">휴대폰번호</label>
-                <input type = "tel">
-                <span>예:010-1234-5678</span>
+                <input type = "tel" id="phone" class="phoneInput">
+                <span class="helperText">예:010-1234-5678</span>
             </div>
             <button type="submit">등록완료</button>
         </form>
