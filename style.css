@@ -35,7 +35,7 @@ body{
 
 #wrapper{
     width: 420px;
-    box-shadow : 0px 4px 14px rgba(0,0,0,0,2)
+    box-shadow : 0px 4px 14px rgba(0,0,0,0.2)
     /* box-shadow의 역할은 영역의 그림자를 설정합니다. */
     /* 0px는 수평방향의 그림자를 생성 */
     /* 4px은 수직방향으로 그림자를 생성 */
@@ -97,11 +97,11 @@ h2{
     padding-top:8px;
 }
 
-.inputGroup .valid.helperText{
+.inputGroup.valid .helperText{
     visibility:hidden;
 }
 
-.inputGroup .invalid.helperText{
+.inputGroup.invalid .helperText{
     color:var(--errorColor);
 }
 
